@@ -1,0 +1,10 @@
+def show_positive():
+    #Rangefunction for repeating quotes!
+    sen = [] #create sentence
+    str = "Become the change you want to see in the world! " #space between sentences
+    for i in range(5): 
+        sen.append(str) #assign str to sentence
+
+    return "".join(sen) #return sentence join of str
+
+print (show_positive())# cook your dish here
